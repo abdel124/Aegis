@@ -1,0 +1,35 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+.terraform.lock.hcl
+
+# Local environment overrides
+.env
+.env.*
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Helm / K8s
+charts/
+values.override.yaml
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*~
