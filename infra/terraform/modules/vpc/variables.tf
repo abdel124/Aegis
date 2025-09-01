@@ -1,0 +1,5 @@
+variable "name" {}
+variable "cidr" { default = "10.10.0.0/16" }
+variable "azs" { type = list(string) }
+variable "public_subnets" { type = list(string) }
+variable "private_subnets" { type = list(string) }
